@@ -29,3 +29,6 @@ The six shift register will be connected in pair,
 each shift register has 8 bit output so for one row of led 
 We will need only eleven of the in order to control all the column, 
 the remaining one willi be used o control the row input of the matrix.
+
+#Ver. 0.1
+There are some example code and a first hardware scheme.
