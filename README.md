@@ -17,6 +17,8 @@ I will use an ESP12 with more in/out pins.
 * 4x 74HC164N shift register
 * 6X 74HC299N shift register
 * Common Cathode RGB Clear LED
+* Resistor (100Ω, 150Ω)
+* Some Transistor
 
 # The Matrix
 In the matrix each row of leds will have the common cathode connected together,
