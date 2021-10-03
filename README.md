@@ -1,5 +1,5 @@
 # The Idea of the WordClock
-I see around the internet a lot of Word Clock very well made. 
+I see around the internet a lot of Word Clock well made. 
 BUT a lot of them are made with an adressable led strip. 
 I think it's too easy to do so I decide to made one with a bunch of shift register found 
 on an old board and a basic common cathode RGB leds.
@@ -13,12 +13,11 @@ my second idea is to connect the shift register in a sort of RGB configuration a
 I will use an ESP12 with more in/out pins.
 
 # What I have 
-* ESP12 on a NODEMCU V0.9
-* 4x 74HC164N shift register
-* 6X 74HC299N shift register
+* NODEMCU V0.9 with an ESP12
+* 6x 74HC164N shift register
 * Common Cathode RGB Clear LED
 * Resistor (100Ω, 150Ω)
-* Some Transistor
+* Some Transistor (to be defined)
 
 # The Matrix
 In the matrix each row of leds will have the common cathode connected together,
@@ -33,4 +32,4 @@ We will need only eleven of the in order to control all the column,
 the remaining one willi be used o control the row input of the matrix.
 
 # Ver. 0.1
-There are some example code and a first hardware scheme.
+There are some example code and a first hardware scheme. (SOON!)
